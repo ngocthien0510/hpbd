@@ -223,6 +223,34 @@ span {
 .balloon > div:nth-child(13):before {
     color: rgba(15, 219, 234, 0.9);
 }
+/* ================= 14 ====================== */
+.balloon > div:nth-child(14) {
+    background: rgba(15, 219, 234, 0.9);
+    left: 700px;
+    top: 200px;
+    box-shadow: inset 10px 10px 10px rgba(15, 219, 234, 0.9);
+    -webkit-animation: balloon2 6s ease-in-out infinite;
+    -moz-animation: balloon2 6s ease-in-out infinite;
+    -o-animation: balloon2 6s ease-in-out infinite;
+    animation: balloon2 6s ease-in-out infinite;
+}
+.balloon > div:nth-child(14):before {
+    color: rgba(15, 219, 234, 0.9);
+}
+/* ================= 15 ====================== */
+.balloon > div:nth-child(15) {
+    background: rgba(15, 219, 234, 0.9);
+    left: 788px;
+    top: 200px;
+    box-shadow: inset 10px 10px 10px rgba(15, 219, 234, 0.9);
+    -webkit-animation: balloon3 6s ease-in-out infinite;
+    -moz-animation: balloon3 6s ease-in-out infinite;
+    -o-animation: balloon3 6s ease-in-out infinite;
+    animation: balloon3 6s ease-in-out infinite;
+}
+.balloon > div:nth-child(15):before {
+    color: rgba(15, 219, 234, 0.9);
+}
 
 /* Avatar  */
 .avatar {
@@ -246,13 +274,18 @@ span {
 
 .avatar__title {
     cursor: pointer;
-    margin-left: -110px;
+    margin-left: -40px;
     
     margin-top: -170px;
     -webkit-animation: balloon1 4s ease-in-out infinite;
     -moz-animation: balloon1 4s ease-in-out infinite;
     -o-animation: balloon1 4s ease-in-out infinite;
     animation: balloon1 4s ease-in-out infinite;
+}
+.birthday__title{
+    margin-top: 0px;
+    margin-left: -252px;
+    color: aliceblue;
 }
 .balloon > div:before {
     color: rgba(182, 15, 97, 0.9);
